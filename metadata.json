@@ -1,0 +1,6 @@
+{
+  "name": "ฝากซื้อตลาดริมชล",
+  "description": "บริการรับฝากซื้อของสด อาหารปรุงสำเร็จ และของฝากจากตลาดริมชล พร้อมระบบแนะนำเมนูและจับคู่รายการอัจฉริยะ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

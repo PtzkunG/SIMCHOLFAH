@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ฝากซื้อตลาดริมชล — บริการเดินตลาดและระบบแนะนำเมนู</title>
+    <meta name="description" content="บริการรับฝากซื้อของสด อาหารปรุงสำเร็จ และของฝากจากตลาดริมชล พร้อมระบบแนะนำเมนูและจับคู่รายการอัจฉริยะ" />
+    <meta property="og:title" content="ฝากซื้อตลาดริมชล" />
+    <meta property="og:description" content="บริการรับฝากซื้อของสด อาหารปรุงสำเร็จ และของฝากจากตลาดริมชล พร้อมระบบแนะนำเมนูและจับคู่รายการอัจฉริยะ" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('rimchol_theme_v1');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F6F8F5] dark:bg-[#0C110E] text-[#141A15] dark:text-[#ECF1ED] antialiased selection:bg-[#14532D] selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
